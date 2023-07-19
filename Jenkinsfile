@@ -23,7 +23,6 @@ pipeline {
             steps {
                 script {
                     sh '''
-                        // cd server-side
                         npm install
                     '''
                 }
